@@ -3,6 +3,10 @@
 const displayOne = document.querySelector("#counter1");
 const incrementPlayerOne = document.querySelector("#plusPlayerOne");
 const decrementPlayerOne = document.querySelector("#minusPlayerOne");
+const incrFivePlayerOne = document.querySelector("#plusFivePlayerOne");
+const decrFivePlayerOne = document.querySelector("#minusFivePlayerOne");
+
+
 
 function PlayerOnePlus (){
     return displayOne.value = Number(displayOne.value) + 1;
@@ -13,12 +17,25 @@ function PlayerOneMinus  (){
     incrementPlayerOne.addEventListener("click",PlayerOnePlus);
     decrementPlayerOne.addEventListener("click",PlayerOneMinus);
 
+// incr/decr player one by 5
+function PlayerOnePlusFive (){
+        return displayOne.value = Number(displayOne.value) + 5;
+      }
+function PlayerOneMinusFive  (){
+        return displayOne.value -= 5;
+    }
+    incrFivePlayerOne.addEventListener("click",PlayerOnePlusFive);
+    decrFivePlayerOne.addEventListener("click",PlayerOneMinusFive);
+
 
 // player 2
 const displayTwo = document.querySelector("#counter2");
 const incrementPlayerTwo = document.querySelector("#plusPlayerTwo");
 const decrementPlayerTwo = document.querySelector("#minusPlayerTwo");
+const incrementFivePlayerTwo = document.querySelector("#plusFivePlayerTwo");
+const decrementFivePlayerTwo = document.querySelector("#minusFivePlayerTwo");
 
+// incr/decr player two by 1
 function PlayerTwoPlus (){
     return displayTwo.value = Number(displayTwo.value) + 1;
   }
@@ -27,6 +44,17 @@ function PlayerTwoMinus (){
   }
     incrementPlayerTwo.addEventListener("click",PlayerTwoPlus)
     decrementPlayerTwo.addEventListener("click",PlayerTwoMinus);
+
+// incr/decr player two by 5
+
+function PlayerTwoPlusFive (){
+    return displayTwo.value = Number(displayTwo.value) + 5;
+  }
+function PlayerTwoMinusFive (){
+    return displayTwo.value -= 5;
+  }
+    incrementFivePlayerTwo.addEventListener("click",PlayerTwoPlusFive)
+    decrementFivePlayerTwo.addEventListener("click",PlayerTwoMinusFive);
 
 if (displayOne.value < 0 || displayTwo.value < 0){
         alert ("undefined");

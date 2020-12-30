@@ -1,7 +1,6 @@
 body{
     text-align:center;
     position:relative;
-    top:30%;
     background-image: url("https://i.pinimg.com/originals/82/32/15/8232157f8d4e09717bf71b9a5e7d2929.jpg");
     background-repeat: no-repeat;
     font-size: 22px;
@@ -21,7 +20,7 @@ body{
   }
    button{
     display:block;
-    margin: 15px 0px 0px 0px;
+    margin: 15px 5px 0px 4px;
     border:none;
     width:75px;
     height:50px;
@@ -58,7 +57,8 @@ body{
 .backgrounds{
   position:relative;
   margin: 25px 60px;
-  bottom:50px;
+  top:60px;
+  
   
 }
 .backgrounds>button{
@@ -67,3 +67,30 @@ body{
   font-size:12px;
   
 }
+
+#plusFivePlayerTwo{
+  float:right;
+}
+
+ #minusFivePlayerTwo{
+  float:right;
+}
+
+.flexPlayerTwo{
+  display:flex;
+  flex-direction: column;
+  float:right;
+  position: relative;
+  bottom:130px;
+  margin:0px 0px 0px 100px;
+
+}
+.flexPlayerOne{
+ display:flex;
+ flex-direction: column;
+ float:right;
+ position: relative;
+ bottom:130px;
+ margin:0px 0px 0px 100px;
+}
+

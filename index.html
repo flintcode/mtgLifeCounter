@@ -5,6 +5,14 @@
             <link rel = "stylesheet" href = "style.css">
          </head>
         <body>
+            <div class = backgrounds>
+                <button id = "main">MAIN</button>
+                <button id = "black">SWAMP</button>
+                <button id = "red">MOUNTAIN</button>
+                <button id = "green">FOREST</button>
+                <button id = "blue">ISLAND</button>
+                <button id = "white">PLAINS</button>
+            </div> 
           <div class = "body">
               <h1>MTG LIFE COUNTER</h1>
             <div class="scoreboard" id="playerOne">
@@ -12,6 +20,11 @@
                     <input id="counter1" type="number" class = "counter" value="20">
                     <button id = "plusPlayerOne">+1</button>
                     <button id ="minusPlayerOne"> -1</button>
+            
+                <div class = "flexPlayerOne">
+                <button id = "plusFivePlayerOne">+5</button>
+                <button id = "minusFivePlayerOne"> -5</button>
+                </div>   
 
             </div>
 
@@ -20,15 +33,15 @@
                     <input id = "counter2" class = "counter" type = "number" value = "20">
                     <button id = "plusPlayerTwo">+1</button>
                     <button id = "minusPlayerTwo"> -1</button>
+            
+                <div class = 'flexPlayerTwo'>
+                    <button id = "plusFivePlayerTwo">+5</button>
+                    <button id = "minusFivePlayerTwo"> -5</button>
+                </div>    
             </div>
-                 <div class = backgrounds>
-                    <button id = "main">MAIN</button>
-                    <button id = "black">SWAMP</button>
-                    <button id = "red">MOUNTAIN</button>
-                    <button id = "green">FOREST</button>
-                    <button id = "blue">ISLAND</button>
-                    <button id = "white">PLAINS</button>
-                </div> 
+                    
+
+               
           </div>
         </body>
         <script src = "app.js"> </script>
