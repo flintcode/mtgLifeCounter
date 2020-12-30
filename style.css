@@ -1,0 +1,54 @@
+body{
+    text-align:center;
+    position:relative;
+    top:10%;
+    background-image: url("https://media.magic.wizards.com/images/wallpaper/tidechannel-pathway_khm_1920x1080_wallpaper_0.jpg");
+    font-size: 25px;
+}
+
+
+
+.scoreboard{
+    display: inline-block;
+  }
+  #playerOne{
+    margin:25px;
+  }
+  #playerTwo{
+    margin:25px;
+  }
+   button{
+    display:block;
+    margin: 15px 0px 0px 0px;
+    border:none;
+    width:75px;
+    height:50px;
+    border-radius:25px;
+    font-size:25px;
+    background-color: aqua;
+    opacity:
+  }
+  .minusCounter{
+    float:right;
+    position:relative;
+    bottom:65px;
+    left:15px;
+  }
+  
+  .counter{
+    height:50px;
+    width:150px;
+    font-size:50px;
+    text-align:center;
+  
+  }
+  
+  .scoreboard{
+    text-align:center;
+    justify-content:center;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+      -webkit-appearance:none;
+      margin:0;
+  }
