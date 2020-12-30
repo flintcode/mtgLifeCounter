@@ -32,30 +32,35 @@ if (displayOne.value < 0 || displayTwo.value < 0){
         alert ("undefined");
 }
 
+function mainBack(){
+    document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/82/32/15/8232157f8d4e09717bf71b9a5e7d2929.jpg')";
+}
 function blackBack(){
-    document.body.style.backgroundImage = "url('https://wallpapermemory.com/uploads/424/magic-the-gathering-mtg-wallpaper-hd-1680x1050-455383.jpg')";
+    document.body.style.backgroundImage = "url('https://wallpapercave.com/wp/wp2805743.jpg')";
 }
 function redBack(){
-    document.body.style.backgroundImage = "url('https://wallpapermemory.com/uploads/424/magic-the-gathering-mtg-wallpaper-hd-1680x1050-455383.jpg')";
+    document.body.style.backgroundImage = "url('https://cdnb.artstation.com/p/assets/images/images/002/010/203/large/lidija-raletic-magic-the-gathering-mountain1.jpg?1455908586')";
 }
 function greenBack(){
-    document.body.style.backgroundImage = "url('https://wallpapermemory.com/uploads/424/magic-the-gathering-mtg-wallpaper-hd-1680x1050-455383.jpg')";
+    document.body.style.backgroundImage = "url('https://media.magic.wizards.com/images/wallpaper/timbercrown-pathway_sld_1920x1080_wallpaper.jpg')";
+
 }
 function blueBack(){
     document.body.style.backgroundImage = "url('https://media.magic.wizards.com/images/wallpaper/tidechannel-pathway_khm_1920x1080_wallpaper_0.jpg')";
 }
 function whiteBack(){
-    document.body.style.backgroundImage = "url('https://wallpapermemory.com/uploads/424/magic-the-gathering-mtg-wallpaper-hd-1680x1050-455383.jpg')";
+    document.body.style.backgroundImage = "url('https://cdna.artstation.com/p/assets/images/images/011/375/136/large/alayna-lemmer-danner-1-plains.jpg?1529273570')";
 }
 
 // background changer
+const storeMain = document.querySelector('#main')
 const storeBlack = document.querySelector("#black")
 const storeRed = document.querySelector('#red');
-const storeGreen  = document.querySelector('#greeb');
+const storeGreen  = document.querySelector('#green');
 const storeBlue  = document.querySelector('#blue');
 const storeWhite  = document.querySelector('#white');
 
-
+storeMain.addEventListener('click',mainBack)
 storeBlack.addEventListener("click",blackBack);
 storeRed.addEventListener("click",redBack);
 storeGreen.addEventListener("click",greenBack);

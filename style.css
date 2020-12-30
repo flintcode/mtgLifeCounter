@@ -55,3 +55,15 @@ body{
   }
 
   /* Background Change */
+.backgrounds{
+  position:relative;
+  margin: 25px 60px;
+  bottom:50px;
+  
+}
+.backgrounds>button{
+  width: 75px;
+  height:30px;
+  font-size:12px;
+  
+}
