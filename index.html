@@ -5,6 +5,9 @@
             <link rel = "stylesheet" href = "style.css">
          </head>
         <body>
+
+         <div id = "mySideNav" class = "sideNav">
+            <a href = "javascript:void(0)" class = "closeButton" onclick= "closeNav()"> &times; </a>
             <div class = backgrounds>
                 <button id = "main">MAIN</button>
                 <button id = "black">SWAMP</button>
@@ -12,7 +15,10 @@
                 <button id = "green">FOREST</button>
                 <button id = "blue">ISLAND</button>
                 <button id = "white">PLAINS</button>
+             </div>
             </div> 
+
+            <span id = "openButton" onclick = "openNav()">=></span>
           <div class = "body">
               <h1>MTG LIFE COUNTER</h1>
             <div class="scoreboard" id="playerOne">

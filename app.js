@@ -1,10 +1,13 @@
 
+
+
 // player 1
 const displayOne = document.querySelector("#counter1");
 const incrementPlayerOne = document.querySelector("#plusPlayerOne");
 const decrementPlayerOne = document.querySelector("#minusPlayerOne");
 const incrFivePlayerOne = document.querySelector("#plusFivePlayerOne");
 const decrFivePlayerOne = document.querySelector("#minusFivePlayerOne");
+
 
 
 
@@ -56,9 +59,7 @@ function PlayerTwoMinusFive (){
     incrementFivePlayerTwo.addEventListener("click",PlayerTwoPlusFive)
     decrementFivePlayerTwo.addEventListener("click",PlayerTwoMinusFive);
 
-if (displayOne.value < 0 || displayTwo.value < 0){
-        alert ("undefined");
-}
+
 
 function mainBack(){
     document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/82/32/15/8232157f8d4e09717bf71b9a5e7d2929.jpg')";
@@ -94,3 +95,19 @@ storeRed.addEventListener("click",redBack);
 storeGreen.addEventListener("click",greenBack);
 storeBlue.addEventListener("click",blueBack);
 storeWhite.addEventListener("click",whiteBack)
+
+// side nav
+
+// const closebtn = document.querySelector("closeButton")
+// closebtn.addEventListener('click',closeNav)
+
+// const openbtn = document.querySelector("#openButton")
+// openbtn.addEventListener('click',openNav);
+
+function openNav (){
+    document.getElementById("mySideNav").style.width = "200px";
+}
+
+function closeNav (){
+    document.getElementById("mySideNav").style.width = "0";
+}

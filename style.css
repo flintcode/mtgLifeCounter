@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     font-size: 22px;
     overflow: hidden;
+    top:350px;
 }
 
 
@@ -28,6 +29,7 @@ body{
     font-size:25px;
     background-color: aqua;
   }
+  
   .minusCounter{
     float:right;
     position:relative;
@@ -94,3 +96,51 @@ body{
  margin:0px 0px 0px 100px;
 }
 
+/* side nav menu */
+
+.sideNav {
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:aqua;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+.sidenav button {
+  padding:2px 8px 8px 5px;
+  font-size: 15px;
+  display:block;
+  transition:0.3s;
+}
+
+.sidenav button:hover{
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top:0px;
+  right:25px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+@media screen and (max-height: 450px){
+  .sidenav {padding-top:15px;}
+  .sidenav button {font-size:18px;}
+}
+
+#openButton {
+  position:fixed;
+  top:55px;
+  left:75px;
+  background: aqua;
+  border-radius:5px;
+}
+
+a{
+  text-decoration: none;
+}
