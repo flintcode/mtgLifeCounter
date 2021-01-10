@@ -6,9 +6,8 @@ body{
     font-size: 22px;
     overflow: hidden;
     top:350px;
+    font-family: 'MedievalSharp', cursive;
 }
-
-
 
 .scoreboard{
     display: inline-block;
@@ -28,6 +27,7 @@ body{
     border-radius:25px;
     font-size:25px;
     background-color: aqua;
+    font-family: 'MedievalSharp', cursive;
   }
   
   .minusCounter{
@@ -136,9 +136,11 @@ body{
 #openButton {
   position:fixed;
   top:55px;
-  left:75px;
+  left:25px;
   background: aqua;
   border-radius:5px;
+  height:50px;
+  width:175px;
 }
 
 a{
