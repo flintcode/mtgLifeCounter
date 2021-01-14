@@ -59,7 +59,14 @@ function PlayerTwoMinusFive (){
     decrementFivePlayerTwo.addEventListener("click",PlayerTwoMinusFive);
 
 
+// reset page
+function reset() {
+        window.location.reload();
+ }
+     document.getElementById("titleHeader").addEventListener('click',reset)
 
+
+// background
 function mainBack(){
     document.body.style.transition = "all 0.3s"
     document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/82/32/15/8232157f8d4e09717bf71b9a5e7d2929.jpg')";
@@ -70,7 +77,7 @@ function blackBack(){
 }
 function redBack(){
     document.body.style.transition = "all 0.3s"
-    document.body.style.backgroundImage = "url('https://cdnb.artstation.com/p/assets/images/images/002/010/203/large/lidija-raletic-magic-the-gathering-mountain1.jpg?1455908586')";
+    document.body.style.backgroundImage = "url('https://cdnb.artstation.com/p/assets/images/images/002/010/203/large/lidija-raletic-magic-the-gathering-mountain1.jpg?1455908586')"
 }
 function greenBack(){
     document.body.style.transition = "all 0.3s"
@@ -84,8 +91,6 @@ function whiteBack(){
     document.body.style.transition = "all 0.3s"
     document.body.style.backgroundImage = "url('https://cdna.artstation.com/p/assets/images/images/011/375/136/large/alayna-lemmer-danner-1-plains.jpg?1529273570')";
 }
-
-
 
 
 // background changer
