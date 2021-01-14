@@ -6,7 +6,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
          </head>
-        <body>
+        <body onload = "mainBack()">
 
          <div id = "mySideNav" class = "sideNav">
             <a href = "javascript:void(0)" class = "closeButton" onclick= "closeNav()"> &times; </a>
@@ -21,11 +21,11 @@
             </div> 
 
             <span id = "openButton" onclick = "openNav()">Change Backgrounds</span>
-          <div class = "body">
+          <div class = "gameBoard">
               <h1>MTG LIFE COUNTER</h1>
             <div class="scoreboard" id="playerOne">
                 <p> PLAYER 1</p>
-                    <input id="counter1" type="number" class = "counter" value="20">
+                    <input id="counter1" type="number" class = "counter" value="20" disabled = "disabled">
                     <button id = "plusPlayerOne">+1</button>
                     <button id ="minusPlayerOne"> -1</button>
             
@@ -38,7 +38,7 @@
 
             <div class="scoreboard" id="playerTwo">
                 <p> PLAYER 2 </p>
-                    <input id = "counter2" class = "counter" type = "number" value = "20">
+                    <input id = "counter2" class = "counter" type = "number" value = "20" disabled = "disabled">
                     <button id = "plusPlayerTwo">+1</button>
                     <button id = "minusPlayerTwo"> -1</button>
             
